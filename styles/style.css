@@ -3,7 +3,6 @@ html {
 }
 body {
   width: 1100px;
-  height: 3028px;
   background-color: rgb(255, 255, 255);
 }
 
@@ -88,9 +87,7 @@ body {
 }
 
 .cover__title {
-  height: 384px;
   padding-top: 156px;
-  padding-bottom: 207px;
   width: 100%;
   color: #fff;
   font-family: Raleway, sans-serif;
@@ -125,7 +122,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding-bottom: 50px;
-  padding-top: 273px;
+  padding-top: 96px;
   text-transform: uppercase;
   z-index: 1;
 }
@@ -147,14 +144,13 @@ body {
   text-decoration: none;
   background-color: transparent;
   text-transform: uppercase;
-  border: 1px solid white;
+  border: 1px solid currentColor;
   padding-bottom: 5px;
 }
 
 .lots {
   display: grid;
-  height: 723px;
-  margin: 24px;
+  margin-left: 24px;
   margin-right: 24px;
   margin-top: 181px;
 }
@@ -175,7 +171,7 @@ body {
   gap: 25px;
   list-style: none;
   align-content: space-between;
-  margin-top: 25px;
+  margin-top: 27px;
 }
 
 .lots__card-list-item {
@@ -199,22 +195,21 @@ body {
   height: 100%;
 }
 
-.card_type_film {
-  background-image: url(../images/card-lot-01.jpg);
+.card_type {
   background-position: center;
   background-size: cover;
+}
+
+.card_type_film {
+  background-image: url(../images/card-lot-01.jpg);
 }
 
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
-  background-position: center;
-  background-size: cover;
 }
 
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
-  background-position: center;
-  background-size: cover;
 }
 
 .card__title {
@@ -226,7 +221,6 @@ body {
   line-height: 26px;
   color: #fff;
   width: 254px;
-  max-height: 110px;
   z-index: 3;
 }
 
@@ -240,7 +234,7 @@ body {
 }
 
 .lots__look-more-link {
-  padding-top: 28px;
+  padding-top: 30px;
   padding-left: 40px;
   font-weight: 400;
   font-size: 20px;
@@ -303,7 +297,7 @@ body {
   padding-right: 6px;
 }
 
-.about__text_first {
+.about__text_lots-then {
   grid-row-start: 2;
   grid-row-end: 3;
   grid-column-start: 2;
@@ -312,7 +306,7 @@ body {
   padding-right: 30px;
 }
 
-.about__text_second {
+.about__text_lots-now {
   grid-row-start: 3;
   grid-row-end: 4;
   grid-column-start: 2;
@@ -323,7 +317,7 @@ body {
   margin-top: 181px;
   margin-left: 51px;
   margin-right: 50px;
-  margin-bottom: 180px;
+  padding-bottom: 80px;
   display: flex;
   justify-content: space-between;
 }
@@ -349,7 +343,7 @@ body {
   text-underline-offset: 3px;
 }
 
-.footer__menu-link-active {
+.footer__menu-link-active .footer__menu-link {
   text-decoration: none;
 }
 
